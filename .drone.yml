@@ -1,0 +1,36 @@
+---
+kind: pipeline
+name: default
+
+clone:
+  disable: true
+
+steps:
+- name: git
+  pull: default
+  image: plugins/git
+  settings:
+    depth: 0
+  tags: true
+
+- name: update-chart-index
+  image: docker.io/bitpoke/build:v0.4.0
+  environment:
+    SSH_KEY:
+      from_secret: SSH_KEY
+  commands:
+    - /usr/local/bin/setup-credentials-helper.sh
+    - git config --global user.email "bot@bitpoke.io"
+    - git config --global user.name "Bitpoke Bot"
+    - git config --global push.default current
+    - git remote set-url origin git@github.com:bitpoke/helm-charts.git
+    - ssh-keyscan -H github.com > /etc/ssh/ssh_known_hosts
+    - make index
+    - make publish
+  when:
+    branch: master
+---
+kind: signature
+hmac: 57adbb0093ebe3ce6af6dc5d299e9a7fb3405150d3243268d6ca1e614ec327ae
+
+...
