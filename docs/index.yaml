@@ -3,7 +3,7 @@ entries:
   mysql-cluster:
   - apiVersion: v1
     appVersion: 0.5.0-rc.4
-    created: "2021-09-30T16:52:24.212250456Z"
+    created: "2021-09-30T18:05:28.871790246Z"
     description: A Helm chart for easy deployment of a MySQL cluster with MySQL operator.
     digest: 69d281218053050bd0b8f978aa1ceda034bb7c2a0e0446f99c55f129743cbd0c
     name: mysql-cluster
@@ -13,7 +13,7 @@ entries:
   mysql-operator:
   - apiVersion: v1
     appVersion: 0.5.0-rc.4
-    created: "2021-09-30T16:52:24.215867767Z"
+    created: "2021-09-30T18:05:28.8773964Z"
     description: A Helm chart for mysql operator
     digest: 069690fa8c5a8ee22fd3cafe46304516c2dc5e6c4d037f460a594a2460200d6d
     home: https://github.com/bitpoke/mysql-operator
@@ -28,4 +28,4 @@ entries:
     urls:
     - https://helm-charts.bitpoke.io/mysql-operator-0.5.0-rc.4.tgz
     version: 0.5.0-rc.4
-generated: "2021-09-30T16:52:24.21153828Z"
+generated: "2021-09-30T18:05:28.871274887Z"
