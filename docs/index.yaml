@@ -2,8 +2,17 @@ apiVersion: v1
 entries:
   mysql-cluster:
   - apiVersion: v1
+    appVersion: 0.5.1
+    created: "2021-10-12T17:18:07.369317124Z"
+    description: A Helm chart for easy deployment of a MySQL cluster with MySQL operator.
+    digest: 6e7d0827d2d6abdef43364171b9b7ba980914d7579e84225c860458699ff80a4
+    name: mysql-cluster
+    urls:
+    - https://helm-charts.bitpoke.io/mysql-cluster-0.5.1.tgz
+    version: 0.5.1
+  - apiVersion: v1
     appVersion: 0.5.0
-    created: "2021-10-06T07:56:14.430643524Z"
+    created: "2021-10-12T17:18:07.369095088Z"
     description: A Helm chart for easy deployment of a MySQL cluster with MySQL operator.
     digest: ed201e8dd15665b0ca4eb2cf87db0c2491dd917b0ce622807f6f4326e942136a
     name: mysql-cluster
@@ -12,7 +21,7 @@ entries:
     version: 0.5.0
   - apiVersion: v1
     appVersion: 0.5.0-rc.4
-    created: "2021-10-06T07:56:14.430160187Z"
+    created: "2021-10-12T17:18:07.368835962Z"
     description: A Helm chart for easy deployment of a MySQL cluster with MySQL operator.
     digest: e9c1e07f141b3dcdf96504fc425e07a30d0d6663ccebb2b83e36a7e31adeadae
     name: mysql-cluster
@@ -21,8 +30,25 @@ entries:
     version: 0.5.0-rc.4
   mysql-operator:
   - apiVersion: v1
+    appVersion: 0.5.1
+    created: "2021-10-12T17:18:07.376886083Z"
+    description: A helm chart for Bitpoke Operator for MySQL
+    digest: ffdbbc0237fb2452d8ce6ac54212e926f3bddc4ba7e7015bfef31828e5dae193
+    home: https://github.com/bitpoke/mysql-operator
+    keywords:
+    - mysql
+    - percona
+    - orchestrator
+    - bitpoke
+    name: mysql-operator
+    sources:
+    - https://github.com/bitpoke/mysql-operator.git
+    urls:
+    - https://helm-charts.bitpoke.io/mysql-operator-0.5.1.tgz
+    version: 0.5.1
+  - apiVersion: v1
     appVersion: 0.5.0
-    created: "2021-10-06T07:56:14.438014216Z"
+    created: "2021-10-12T17:18:07.373268992Z"
     description: A helm chart for Bitpoke Operator for MySQL
     digest: 728599537e6c032f3ff8b3b22627b13b130c9da218f9cf838080521b1e43eec0
     home: https://github.com/bitpoke/mysql-operator
@@ -39,7 +65,7 @@ entries:
     version: 0.5.0
   - apiVersion: v1
     appVersion: 0.5.0-rc.4
-    created: "2021-10-06T07:56:14.434365038Z"
+    created: "2021-10-12T17:18:07.371268602Z"
     description: A helm chart for Bitpoke Operator for MySQL
     digest: d3b96a5db7b94959610823cf47e8a77e0b126377d4f885f2522b4611d5b9bcfd
     home: https://github.com/bitpoke/mysql-operator
@@ -54,4 +80,4 @@ entries:
     urls:
     - https://helm-charts.bitpoke.io/mysql-operator-0.5.0-rc.4.tgz
     version: 0.5.0-rc.4
-generated: "2021-10-06T07:56:14.429008606Z"
+generated: "2021-10-12T17:18:07.367665999Z"
