@@ -2,8 +2,17 @@ apiVersion: v1
 entries:
   mysql-cluster:
   - apiVersion: v1
+    appVersion: v0.6.2
+    created: "2021-12-28T20:08:35.911071516Z"
+    description: A Helm chart for easy deployment of a MySQL cluster with MySQL operator.
+    digest: 7c68e9090a8124b37976d46df3a1e6d83e5cee6a0c8770f9675e8fb4a2fff3ff
+    name: mysql-cluster
+    urls:
+    - https://helm-charts.bitpoke.io/mysql-cluster-0.6.2.tgz
+    version: 0.6.2
+  - apiVersion: v1
     appVersion: v0.6.1
-    created: "2021-12-27T13:11:25.106581816Z"
+    created: "2021-12-28T20:08:35.9106636Z"
     description: A Helm chart for easy deployment of a MySQL cluster with MySQL operator.
     digest: ac984a5e58e3efc7035d8c85e4893ffe960e94a6263185dddb483b5675a8e0f7
     name: mysql-cluster
@@ -12,7 +21,7 @@ entries:
     version: 0.6.1
   - apiVersion: v1
     appVersion: 0.6.0
-    created: "2021-12-27T13:11:25.106168842Z"
+    created: "2021-12-28T20:08:35.910262817Z"
     description: A Helm chart for easy deployment of a MySQL cluster with MySQL operator.
     digest: 21eb6294f5ace0f8a507505378e3843a9ea573ab84a55cf126b0bec2f6df5e6b
     name: mysql-cluster
@@ -21,7 +30,7 @@ entries:
     version: 0.6.0
   - apiVersion: v1
     appVersion: 0.6.0-alpha.0
-    created: "2021-12-27T13:11:25.105765976Z"
+    created: "2021-12-28T20:08:35.9098544Z"
     description: A Helm chart for easy deployment of a MySQL cluster with MySQL operator.
     digest: 8bc47c88721e1c5b0291eafa8f4a26f7404486c16eb122bdf14665cadcd7fa05
     name: mysql-cluster
@@ -30,7 +39,7 @@ entries:
     version: 0.6.0-alpha.0
   - apiVersion: v1
     appVersion: 0.5.3
-    created: "2021-12-27T13:11:25.10532541Z"
+    created: "2021-12-28T20:08:35.909411067Z"
     description: A Helm chart for easy deployment of a MySQL cluster with MySQL operator.
     digest: 1f95f645f33976da69f9aff69b59d954acf0cf6de553bec072e6c3ca8f05fd17
     name: mysql-cluster
@@ -39,7 +48,7 @@ entries:
     version: 0.5.3
   - apiVersion: v1
     appVersion: 0.5.2
-    created: "2021-12-27T13:11:25.104875717Z"
+    created: "2021-12-28T20:08:35.908965089Z"
     description: A Helm chart for easy deployment of a MySQL cluster with MySQL operator.
     digest: e3ac6c828c7919392b072e6f989119a238e79b7f336c5418c314da3dc0ff610c
     name: mysql-cluster
@@ -48,7 +57,7 @@ entries:
     version: 0.5.2
   - apiVersion: v1
     appVersion: 0.5.1
-    created: "2021-12-27T13:11:25.104467992Z"
+    created: "2021-12-28T20:08:35.908554728Z"
     description: A Helm chart for easy deployment of a MySQL cluster with MySQL operator.
     digest: 6e7d0827d2d6abdef43364171b9b7ba980914d7579e84225c860458699ff80a4
     name: mysql-cluster
@@ -57,7 +66,7 @@ entries:
     version: 0.5.1
   - apiVersion: v1
     appVersion: 0.5.0
-    created: "2021-12-27T13:11:25.104006807Z"
+    created: "2021-12-28T20:08:35.908115953Z"
     description: A Helm chart for easy deployment of a MySQL cluster with MySQL operator.
     digest: ed201e8dd15665b0ca4eb2cf87db0c2491dd917b0ce622807f6f4326e942136a
     name: mysql-cluster
@@ -66,7 +75,7 @@ entries:
     version: 0.5.0
   - apiVersion: v1
     appVersion: 0.5.0-rc.4
-    created: "2021-12-27T13:11:25.103456926Z"
+    created: "2021-12-28T20:08:35.907559528Z"
     description: A Helm chart for easy deployment of a MySQL cluster with MySQL operator.
     digest: e9c1e07f141b3dcdf96504fc425e07a30d0d6663ccebb2b83e36a7e31adeadae
     name: mysql-cluster
@@ -74,6 +83,60 @@ entries:
     - https://helm-charts.bitpoke.io/mysql-cluster-0.5.0-rc.4.tgz
     version: 0.5.0-rc.4
   mysql-operator:
+  - annotations:
+      artifacthub.io/crds: |
+        - kind: MySQLCluster
+          version: v1alpha1
+          name: mysqlclusters.mysql.presslabs.org
+          displayName: MySQLCluster
+          description: Represents a MySQL cluster managed by Bitpoke's Operator for MySQL.
+      artifacthub.io/crdsExamples: |
+        - apiVersion: v1alpha1
+          kind: MysqlCluster
+          metadata:
+            name: my-cluster
+          spec:
+            replicas: 3
+            secretName: my-secret
+          mysqlConf:
+             innodb-buffer-size: 128M
+          targetSLO:
+            maxSlaveLatency: 10s
+      artifacthub.io/images: |
+        - name: mysql-operator
+          image: docker.io/bitpoke/mysql-operator:v0.6.2
+          whitelisted: true
+        - name: orchestrator
+          image: docker.io/bitpoke/mysql-operator-orchestrator:v0.6.2
+          whitelisted: true
+        - name: mysql-5.7-sidecar
+          image: docker.io/bitpoke/mysql-operator-sidecar-5.7:v0.6.2
+          whitelisted: true
+        - name: mysql-8.0-sidecar
+          image: docker.io/bitpoke/mysql-operator-sidecar-8.0:v0.6.2
+          whitelisted: true
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/operator: "true"
+      artifacthub.io/operatorCapabilities: full lifecycle
+    apiVersion: v2
+    appVersion: v0.6.2
+    created: "2021-12-28T20:08:35.941549484Z"
+    description: A helm chart for Bitpoke Operator for MySQL
+    digest: 6e30ddf49ed1ed0230e3c4f39e8c04580378e6b103d0e2d6d14371a44b8ef838
+    home: https://www.bitpoke.io/mysql-operator/
+    keywords:
+    - mysql
+    - percona
+    - orchestrator
+    - bitpoke
+    - database
+    kubeVersion: '>= 1.19.0-0'
+    name: mysql-operator
+    sources:
+    - https://github.com/bitpoke/mysql-operator.git
+    urls:
+    - https://helm-charts.bitpoke.io/mysql-operator-0.6.2.tgz
+    version: 0.6.2
   - annotations:
       artifacthub.io/crds: |
         - kind: MySQLCluster
@@ -111,7 +174,7 @@ entries:
       artifacthub.io/operatorCapabilities: full lifecycle
     apiVersion: v2
     appVersion: v0.6.1
-    created: "2021-12-27T13:11:25.13321703Z"
+    created: "2021-12-28T20:08:35.937631462Z"
     description: A helm chart for Bitpoke Operator for MySQL
     digest: 70f93e2937fea90ce6de27a53de055e292b91e674396928b289f6b78de3e3b82
     home: https://www.bitpoke.io/mysql-operator/
@@ -165,7 +228,7 @@ entries:
       artifacthub.io/operatorCapabilities: full lifecycle
     apiVersion: v2
     appVersion: 0.6.0
-    created: "2021-12-27T13:11:25.129168569Z"
+    created: "2021-12-28T20:08:35.933944935Z"
     description: A helm chart for Bitpoke Operator for MySQL
     digest: 5edea6bf9d098ca30bf1c5768829a3e5f59ccfcff6151d8c1a063018b371aa85
     home: https://www.bitpoke.io/mysql-operator/
@@ -219,7 +282,7 @@ entries:
       artifacthub.io/operatorCapabilities: full lifecycle
     apiVersion: v2
     appVersion: 0.6.0-alpha.0
-    created: "2021-12-27T13:11:25.126252961Z"
+    created: "2021-12-28T20:08:35.929667207Z"
     description: A helm chart for Bitpoke Operator for MySQL
     digest: a7b23057554d133c2f2925cd0e0ff68d5b7f419dc74b17cb512ef7fd2624f479
     home: https://www.bitpoke.io/mysql-operator/
@@ -238,7 +301,7 @@ entries:
     version: 0.6.0-alpha.0
   - apiVersion: v1
     appVersion: 0.5.3
-    created: "2021-12-27T13:11:25.123227919Z"
+    created: "2021-12-28T20:08:35.925924004Z"
     description: A helm chart for Bitpoke Operator for MySQL
     digest: fb3c5d95be7214eb5426aef21e712d908b297e75883833975ea379a3c115bf93
     home: https://github.com/bitpoke/mysql-operator
@@ -255,7 +318,7 @@ entries:
     version: 0.5.3
   - apiVersion: v1
     appVersion: 0.5.2
-    created: "2021-12-27T13:11:25.119514616Z"
+    created: "2021-12-28T20:08:35.922768434Z"
     description: A helm chart for Bitpoke Operator for MySQL
     digest: dc63223eea461f4c6ec8a1cb8b694f38e26ad131278d4c851f020c83b04ea716
     home: https://github.com/bitpoke/mysql-operator
@@ -272,7 +335,7 @@ entries:
     version: 0.5.2
   - apiVersion: v1
     appVersion: 0.5.1
-    created: "2021-12-27T13:11:25.116688857Z"
+    created: "2021-12-28T20:08:35.920853426Z"
     description: A helm chart for Bitpoke Operator for MySQL
     digest: ffdbbc0237fb2452d8ce6ac54212e926f3bddc4ba7e7015bfef31828e5dae193
     home: https://github.com/bitpoke/mysql-operator
@@ -289,7 +352,7 @@ entries:
     version: 0.5.1
   - apiVersion: v1
     appVersion: 0.5.0
-    created: "2021-12-27T13:11:25.113992992Z"
+    created: "2021-12-28T20:08:35.919012407Z"
     description: A helm chart for Bitpoke Operator for MySQL
     digest: 728599537e6c032f3ff8b3b22627b13b130c9da218f9cf838080521b1e43eec0
     home: https://github.com/bitpoke/mysql-operator
@@ -306,7 +369,7 @@ entries:
     version: 0.5.0
   - apiVersion: v1
     appVersion: 0.5.0-rc.4
-    created: "2021-12-27T13:11:25.110451712Z"
+    created: "2021-12-28T20:08:35.914960654Z"
     description: A helm chart for Bitpoke Operator for MySQL
     digest: d3b96a5db7b94959610823cf47e8a77e0b126377d4f885f2522b4611d5b9bcfd
     home: https://github.com/bitpoke/mysql-operator
@@ -327,7 +390,7 @@ entries:
       artifacthub.io/operator: "true"
     apiVersion: v2
     appVersion: v0.12.0-rc.1
-    created: "2021-12-27T13:11:25.177322153Z"
+    created: "2021-12-28T20:08:35.985833262Z"
     dependencies:
     - condition: mysql-operator.enabled
       name: mysql-operator
@@ -347,13 +410,14 @@ entries:
       repository: file://../git-webhook
       version: 0.0.1+master
     description: Your Open-Source, Cloud-Native WordPress Infrastructure
-    digest: 1def053e7c7b911b117eecbebaabaac876d54de24ee27d116f62d08841844287
+    digest: 85cc551305aecf4ad211fa1d93d69cc1c76621b53b3bc65e7ce72ef7bc2de290
     home: https://www.bitpoke.io/stack/
+    icon: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAMAAAC5zwKfAAAATlBMVEX///+hoaodIyfz8/StrbXQ0NRPUllvcXnb29++vsPt7e/n5+rW1tnExMm4uL6zs7qEhY1nanFfYmjc3N+srLWZmaKRkZlwcnktMjclKy/obea+AAAA60lEQVRYw+3PyQ3CQBQE0Z5vG7wv7OSfKDKX5jgj6ugK4Emlo6O9YbotUy+sMX1rBNWkZJHxLEKeRcqzCHiMaI8R7TGiPUa0x4j2GNEeI9pDxWtKrLgkWHwkWDwlWAxaDFoMWgxaDFoMWgxaDFoMWgxaDFoMWozfLhniWAK+7xliVQDG8//pKH7uSsCNBtcMsC0AXxlerQJwzfCqAvAMeKI90Z5oT7Qn2hPtifZEe6I90Z5oTxvsifY0w56qmvIsUp5FyrNIeRYpzyLlWaQ8i5RnkfUs2mNEe4xojxHtQWK3e3Mlrr5tBx0duQ8QNA2W1DHZ9QAAAABJRU5ErkJggg==
     keywords:
     - wordpress
     - bitpoke
     - Integration and Delivery
-    kubeVersion: '>= 1.16.0-0'
+    kubeVersion: '>= 1.19.0-0'
     maintainers:
     - email: hello@bitpoke.io
       name: Bitpoke
@@ -369,7 +433,7 @@ entries:
       artifacthub.io/operator: "true"
     apiVersion: v2
     appVersion: 0.11.0-rc.5
-    created: "2021-12-27T13:11:25.166945375Z"
+    created: "2021-12-28T20:08:35.97799856Z"
     dependencies:
     - condition: mysql-operator.enabled
       name: mysql-operator
@@ -411,7 +475,7 @@ entries:
       artifacthub.io/operator: "true"
     apiVersion: v2
     appVersion: 0.11.0-rc.4
-    created: "2021-12-27T13:11:25.155763929Z"
+    created: "2021-12-28T20:08:35.970483389Z"
     dependencies:
     - condition: mysql-operator.enabled
       name: mysql-operator
@@ -453,7 +517,7 @@ entries:
       artifacthub.io/operator: "true"
     apiVersion: v2
     appVersion: 0.11.0-rc.3
-    created: "2021-12-27T13:11:25.149598187Z"
+    created: "2021-12-28T20:08:35.960912988Z"
     dependencies:
     - condition: mysql-operator.enabled
       name: mysql-operator
@@ -495,7 +559,7 @@ entries:
       artifacthub.io/operator: "true"
     apiVersion: v2
     appVersion: 0.11.0-rc.2.dev.34+69a56f5f
-    created: "2021-12-27T13:11:25.141951248Z"
+    created: "2021-12-28T20:08:35.952198613Z"
     dependencies:
     - condition: mysql-operator.enabled
       name: mysql-operator
@@ -543,7 +607,7 @@ entries:
       category: CMS
     apiVersion: v2
     appVersion: v0.12.1
-    created: "2021-12-27T13:11:25.19317543Z"
+    created: "2021-12-28T20:08:36.003337662Z"
     description: Bitpoke WordPress Operator Helm Chart
     digest: 6f8dfbe3e5f5ad970a18dd59dc7acb3d0784be82b0d8e01e90b271c05cc30dd2
     home: https://www.bitpoke.io/
@@ -573,7 +637,7 @@ entries:
       category: CMS
     apiVersion: v2
     appVersion: 0.12.0
-    created: "2021-12-27T13:11:25.191840567Z"
+    created: "2021-12-28T20:08:36.000730323Z"
     description: Bitpoke WordPress Operator Helm Chart
     digest: 057def2a7766133ddc47f83bde68430ba5e465ff3e61ad2f026c05d875f0c1ea
     home: https://www.bitpoke.io/
@@ -603,7 +667,7 @@ entries:
       category: CMS
     apiVersion: v2
     appVersion: 0.12.0-alpha.5
-    created: "2021-12-27T13:11:25.189274375Z"
+    created: "2021-12-28T20:08:35.998060196Z"
     description: Bitpoke WordPress Operator Helm Chart
     digest: be3cf52664b12f271eeb88f7f747aa8552f15ac92a7be7c695e3c39fc7b27000
     home: https://www.bitpoke.io/
@@ -633,7 +697,7 @@ entries:
       category: CMS
     apiVersion: v2
     appVersion: 0.12.0-alpha.1
-    created: "2021-12-27T13:11:25.186386399Z"
+    created: "2021-12-28T20:08:35.995164094Z"
     description: Bitpoke WordPress Operator Helm Chart
     digest: 133db8e1d3dfdae52a0078180e96f8f6a67441ca1b9a57a6d6d0ff36d4420b73
     home: https://www.bitpoke.io/
@@ -663,7 +727,7 @@ entries:
       category: CMS
     apiVersion: v2
     appVersion: 0.11.1
-    created: "2021-12-27T13:11:25.183813565Z"
+    created: "2021-12-28T20:08:35.993189224Z"
     description: Bitpoke WordPress Operator Helm Chart
     digest: e786c48ee20574a4602a77c45031225b9b89194dc91135cb3619a3c2fd6e0592
     home: https://www.bitpoke.io/
@@ -693,7 +757,7 @@ entries:
       category: CMS
     apiVersion: v2
     appVersion: 0.11.0
-    created: "2021-12-27T13:11:25.181879528Z"
+    created: "2021-12-28T20:08:35.991747334Z"
     description: Bitpoke WordPress Operator Helm Chart
     digest: 9512750ff76bcc0780d88c84f7ccde51ddc8d161a8bd762ff7e4a11a1d131806
     home: https://www.bitpoke.io/
@@ -723,7 +787,7 @@ entries:
       category: CMS
     apiVersion: v2
     appVersion: 0.11.0-rc.2
-    created: "2021-12-27T13:11:25.179912089Z"
+    created: "2021-12-28T20:08:35.990250432Z"
     description: Bitpoke WordPress Operator Helm Chart
     digest: c84d326fbe0baf5c6baec85b865a306155eb2d831c72813e6a93b0bc0c94a534
     home: https://www.bitpoke.io/
@@ -753,7 +817,7 @@ entries:
       category: CMS
     apiVersion: v2
     appVersion: 0.11.0-rc.1
-    created: "2021-12-27T13:11:25.178893489Z"
+    created: "2021-12-28T20:08:35.98799831Z"
     description: Bitpoke WordPress Operator Helm Chart
     digest: 955a13344545a87a3c1e714a22130c661dfce38805ff93adb51809997b524877
     home: https://www.bitpoke.io/
@@ -773,4 +837,4 @@ entries:
     urls:
     - https://helm-charts.bitpoke.io/wordpress-operator-0.11.0-rc.1.tgz
     version: 0.11.0-rc.1
-generated: "2021-12-27T13:11:25.102578269Z"
+generated: "2021-12-28T20:08:35.906851287Z"
