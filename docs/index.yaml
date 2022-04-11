@@ -9,7 +9,7 @@ entries:
       artifacthub.io/operator: "true"
     apiVersion: v2
     appVersion: 1.8.5
-    created: "2022-03-24T12:23:49.659897575Z"
+    created: "2022-04-11T11:10:09.243434433Z"
     description: The Bitpoke App for WordPress provides a versatile dashboard to create,
       deploy, scale, manage and monitor WordPress sites in a Kubernetes cluster.
     digest: 0277efdacffe5b5336c10e50b70ca0ba931ee047609621917433e2a6323c2087
@@ -36,7 +36,7 @@ entries:
       artifacthub.io/operator: "true"
     apiVersion: v2
     appVersion: 1.8.4
-    created: "2022-03-24T12:23:49.658654321Z"
+    created: "2022-04-11T11:10:09.240753259Z"
     description: The Bitpoke App for WordPress provides a versatile dashboard to create,
       deploy, scale, manage and monitor WordPress sites in a Kubernetes cluster.
     digest: 80d43d0f3ee042f526a0722936fc1f72d44686103b46ace952fee660a0162be3
@@ -63,7 +63,7 @@ entries:
       artifacthub.io/operator: "true"
     apiVersion: v2
     appVersion: 1.8.3
-    created: "2022-03-24T12:23:49.656948279Z"
+    created: "2022-04-11T11:10:09.239491395Z"
     description: The Bitpoke App for WordPress provides a versatile dashboard to create,
       deploy, scale, manage and monitor WordPress sites in a Kubernetes cluster.
     digest: b27867e2dfdd7fbe589f45cda561d7861b11cde2657b114d72c9bb9cfa9aff28
@@ -90,7 +90,7 @@ entries:
       artifacthub.io/operator: "true"
     apiVersion: v2
     appVersion: 1.8.2
-    created: "2022-03-24T12:23:49.655064654Z"
+    created: "2022-04-11T11:10:09.238083145Z"
     description: The Bitpoke App for WordPress provides a versatile dashboard to create,
       deploy, scale, manage and monitor WordPress sites in a Kubernetes cluster.
     digest: 20f15334ae20bcc7c4fa949d3dc4ccb77f60990022cc4b68f00544f9abcaef36
@@ -117,7 +117,7 @@ entries:
       artifacthub.io/operator: "true"
     apiVersion: v2
     appVersion: 1.8.1
-    created: "2022-03-24T12:23:49.653148568Z"
+    created: "2022-04-11T11:10:09.236180365Z"
     description: The Bitpoke App for WordPress provides a versatile dashboard to create,
       deploy, scale, manage and monitor WordPress sites in a Kubernetes cluster.
     digest: b7fc7bd55487b58611e1c0508646e63bdecf886395a3dce872a6bb6c324cdc8c
@@ -144,7 +144,7 @@ entries:
       artifacthub.io/operator: "true"
     apiVersion: v2
     appVersion: 1.8.0
-    created: "2022-03-24T12:23:49.651182689Z"
+    created: "2022-04-11T11:10:09.234388253Z"
     description: The Bitpoke App for WordPress provides a versatile dashboard to create,
       deploy, scale, manage and monitor WordPress sites in a Kubernetes cluster.
     digest: c538d0a70f517836090f17da08432b45dc8a59819992d0bfcb369fb218e88ffe
@@ -166,7 +166,7 @@ entries:
   mysql-cluster:
   - apiVersion: v1
     appVersion: v0.6.2
-    created: "2022-03-24T12:23:49.664182376Z"
+    created: "2022-04-11T11:10:09.247670252Z"
     description: A Helm chart for easy deployment of a MySQL cluster with MySQL operator.
     digest: 7c68e9090a8124b37976d46df3a1e6d83e5cee6a0c8770f9675e8fb4a2fff3ff
     name: mysql-cluster
@@ -175,7 +175,7 @@ entries:
     version: 0.6.2
   - apiVersion: v1
     appVersion: v0.6.1
-    created: "2022-03-24T12:23:49.663780943Z"
+    created: "2022-04-11T11:10:09.247209085Z"
     description: A Helm chart for easy deployment of a MySQL cluster with MySQL operator.
     digest: ac984a5e58e3efc7035d8c85e4893ffe960e94a6263185dddb483b5675a8e0f7
     name: mysql-cluster
@@ -184,7 +184,7 @@ entries:
     version: 0.6.1
   - apiVersion: v1
     appVersion: 0.6.0
-    created: "2022-03-24T12:23:49.663384218Z"
+    created: "2022-04-11T11:10:09.246754319Z"
     description: A Helm chart for easy deployment of a MySQL cluster with MySQL operator.
     digest: 21eb6294f5ace0f8a507505378e3843a9ea573ab84a55cf126b0bec2f6df5e6b
     name: mysql-cluster
@@ -193,7 +193,7 @@ entries:
     version: 0.6.0
   - apiVersion: v1
     appVersion: 0.6.0-alpha.0
-    created: "2022-03-24T12:23:49.662976002Z"
+    created: "2022-04-11T11:10:09.246288002Z"
     description: A Helm chart for easy deployment of a MySQL cluster with MySQL operator.
     digest: 8bc47c88721e1c5b0291eafa8f4a26f7404486c16eb122bdf14665cadcd7fa05
     name: mysql-cluster
@@ -202,7 +202,7 @@ entries:
     version: 0.6.0-alpha.0
   - apiVersion: v1
     appVersion: 0.5.3
-    created: "2022-03-24T12:23:49.662556936Z"
+    created: "2022-04-11T11:10:09.245865396Z"
     description: A Helm chart for easy deployment of a MySQL cluster with MySQL operator.
     digest: 1f95f645f33976da69f9aff69b59d954acf0cf6de553bec072e6c3ca8f05fd17
     name: mysql-cluster
@@ -211,7 +211,7 @@ entries:
     version: 0.5.3
   - apiVersion: v1
     appVersion: 0.5.2
-    created: "2022-03-24T12:23:49.662169459Z"
+    created: "2022-04-11T11:10:09.245454423Z"
     description: A Helm chart for easy deployment of a MySQL cluster with MySQL operator.
     digest: e3ac6c828c7919392b072e6f989119a238e79b7f336c5418c314da3dc0ff610c
     name: mysql-cluster
@@ -220,7 +220,7 @@ entries:
     version: 0.5.2
   - apiVersion: v1
     appVersion: 0.5.1
-    created: "2022-03-24T12:23:49.66178114Z"
+    created: "2022-04-11T11:10:09.245016119Z"
     description: A Helm chart for easy deployment of a MySQL cluster with MySQL operator.
     digest: 6e7d0827d2d6abdef43364171b9b7ba980914d7579e84225c860458699ff80a4
     name: mysql-cluster
@@ -229,7 +229,7 @@ entries:
     version: 0.5.1
   - apiVersion: v1
     appVersion: 0.5.0
-    created: "2022-03-24T12:23:49.661352455Z"
+    created: "2022-04-11T11:10:09.244590839Z"
     description: A Helm chart for easy deployment of a MySQL cluster with MySQL operator.
     digest: ed201e8dd15665b0ca4eb2cf87db0c2491dd917b0ce622807f6f4326e942136a
     name: mysql-cluster
@@ -238,7 +238,7 @@ entries:
     version: 0.5.0
   - apiVersion: v1
     appVersion: 0.5.0-rc.4
-    created: "2022-03-24T12:23:49.660671808Z"
+    created: "2022-04-11T11:10:09.244185676Z"
     description: A Helm chart for easy deployment of a MySQL cluster with MySQL operator.
     digest: e9c1e07f141b3dcdf96504fc425e07a30d0d6663ccebb2b83e36a7e31adeadae
     name: mysql-cluster
@@ -283,7 +283,7 @@ entries:
       artifacthub.io/operatorCapabilities: full lifecycle
     apiVersion: v2
     appVersion: v0.6.2
-    created: "2022-03-24T12:23:49.695879486Z"
+    created: "2022-04-11T11:10:09.282367383Z"
     description: A helm chart for Bitpoke Operator for MySQL
     digest: 6e30ddf49ed1ed0230e3c4f39e8c04580378e6b103d0e2d6d14371a44b8ef838
     home: https://www.bitpoke.io/mysql-operator/
@@ -337,7 +337,7 @@ entries:
       artifacthub.io/operatorCapabilities: full lifecycle
     apiVersion: v2
     appVersion: v0.6.1
-    created: "2022-03-24T12:23:49.692053906Z"
+    created: "2022-04-11T11:10:09.278327813Z"
     description: A helm chart for Bitpoke Operator for MySQL
     digest: 70f93e2937fea90ce6de27a53de055e292b91e674396928b289f6b78de3e3b82
     home: https://www.bitpoke.io/mysql-operator/
@@ -391,7 +391,7 @@ entries:
       artifacthub.io/operatorCapabilities: full lifecycle
     apiVersion: v2
     appVersion: 0.6.0
-    created: "2022-03-24T12:23:49.688764022Z"
+    created: "2022-04-11T11:10:09.273969322Z"
     description: A helm chart for Bitpoke Operator for MySQL
     digest: 5edea6bf9d098ca30bf1c5768829a3e5f59ccfcff6151d8c1a063018b371aa85
     home: https://www.bitpoke.io/mysql-operator/
@@ -445,7 +445,7 @@ entries:
       artifacthub.io/operatorCapabilities: full lifecycle
     apiVersion: v2
     appVersion: 0.6.0-alpha.0
-    created: "2022-03-24T12:23:49.68564553Z"
+    created: "2022-04-11T11:10:09.26998703Z"
     description: A helm chart for Bitpoke Operator for MySQL
     digest: a7b23057554d133c2f2925cd0e0ff68d5b7f419dc74b17cb512ef7fd2624f479
     home: https://www.bitpoke.io/mysql-operator/
@@ -464,7 +464,7 @@ entries:
     version: 0.6.0-alpha.0
   - apiVersion: v1
     appVersion: 0.5.3
-    created: "2022-03-24T12:23:49.681599105Z"
+    created: "2022-04-11T11:10:09.266058869Z"
     description: A helm chart for Bitpoke Operator for MySQL
     digest: fb3c5d95be7214eb5426aef21e712d908b297e75883833975ea379a3c115bf93
     home: https://github.com/bitpoke/mysql-operator
@@ -481,7 +481,7 @@ entries:
     version: 0.5.3
   - apiVersion: v1
     appVersion: 0.5.2
-    created: "2022-03-24T12:23:49.67829282Z"
+    created: "2022-04-11T11:10:09.262843219Z"
     description: A helm chart for Bitpoke Operator for MySQL
     digest: dc63223eea461f4c6ec8a1cb8b694f38e26ad131278d4c851f020c83b04ea716
     home: https://github.com/bitpoke/mysql-operator
@@ -498,7 +498,7 @@ entries:
     version: 0.5.2
   - apiVersion: v1
     appVersion: 0.5.1
-    created: "2022-03-24T12:23:49.675251672Z"
+    created: "2022-04-11T11:10:09.259645042Z"
     description: A helm chart for Bitpoke Operator for MySQL
     digest: ffdbbc0237fb2452d8ce6ac54212e926f3bddc4ba7e7015bfef31828e5dae193
     home: https://github.com/bitpoke/mysql-operator
@@ -515,7 +515,7 @@ entries:
     version: 0.5.1
   - apiVersion: v1
     appVersion: 0.5.0
-    created: "2022-03-24T12:23:49.671940688Z"
+    created: "2022-04-11T11:10:09.256106815Z"
     description: A helm chart for Bitpoke Operator for MySQL
     digest: 728599537e6c032f3ff8b3b22627b13b130c9da218f9cf838080521b1e43eec0
     home: https://github.com/bitpoke/mysql-operator
@@ -532,7 +532,7 @@ entries:
     version: 0.5.0
   - apiVersion: v1
     appVersion: 0.5.0-rc.4
-    created: "2022-03-24T12:23:49.66779654Z"
+    created: "2022-04-11T11:10:09.251782129Z"
     description: A helm chart for Bitpoke Operator for MySQL
     digest: d3b96a5db7b94959610823cf47e8a77e0b126377d4f885f2522b4611d5b9bcfd
     home: https://github.com/bitpoke/mysql-operator
@@ -552,8 +552,51 @@ entries:
       artifacthub.io/license: Apache-2.0
       artifacthub.io/operator: "true"
     apiVersion: v2
+    appVersion: v0.12.3
+    created: "2022-04-11T11:10:09.421828599Z"
+    dependencies:
+    - condition: mysql-operator.enabled
+      name: mysql-operator
+      repository: https://helm-charts.bitpoke.io
+      version: 0.6.2
+    - condition: wordpress-operator.enabled
+      name: wordpress-operator
+      repository: https://helm-charts.bitpoke.io
+      version: 0.12.1
+    - alias: nginx-ingress
+      condition: nginx-ingress.enabled
+      name: ingress-nginx
+      repository: https://kubernetes.github.io/ingress-nginx
+      version: 4.0.8
+    - condition: git-webhook.enabled
+      name: git-webhook
+      repository: file://../git-webhook
+      version: 0.0.1+master
+    description: Your Open-Source, Cloud-Native WordPress Infrastructure
+    digest: b429e93b3fb9d787dfba2431ed62fcb7099c10f838b7df3d937c70758e4f2f54
+    home: https://www.bitpoke.io/stack/
+    icon: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAMAAAC5zwKfAAAATlBMVEX///+hoaodIyfz8/StrbXQ0NRPUllvcXnb29++vsPt7e/n5+rW1tnExMm4uL6zs7qEhY1nanFfYmjc3N+srLWZmaKRkZlwcnktMjclKy/obea+AAAA60lEQVRYw+3PyQ3CQBQE0Z5vG7wv7OSfKDKX5jgj6ugK4Emlo6O9YbotUy+sMX1rBNWkZJHxLEKeRcqzCHiMaI8R7TGiPUa0x4j2GNEeI9pDxWtKrLgkWHwkWDwlWAxaDFoMWgxaDFoMWgxaDFoMWgxaDFoMWozfLhniWAK+7xliVQDG8//pKH7uSsCNBtcMsC0AXxlerQJwzfCqAvAMeKI90Z5oT7Qn2hPtifZEe6I90Z5oTxvsifY0w56qmvIsUp5FyrNIeRYpzyLlWaQ8i5RnkfUs2mNEe4xojxHtQWK3e3Mlrr5tBx0duQ8QNA2W1DHZ9QAAAABJRU5ErkJggg==
+    keywords:
+    - wordpress
+    - bitpoke
+    - Integration and Delivery
+    kubeVersion: '>= 1.19.0-0'
+    maintainers:
+    - email: hello@bitpoke.io
+      name: Bitpoke
+      url: https://www.bitpoke.io
+    name: stack
+    sources:
+    - https://github.com/bitpoke/stack
+    urls:
+    - https://helm-charts.bitpoke.io/stack-0.12.3.tgz
+    version: 0.12.3
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/operator: "true"
+    apiVersion: v2
     appVersion: v0.12.2
-    created: "2022-03-24T12:23:49.834101746Z"
+    created: "2022-04-11T11:10:09.41161844Z"
     dependencies:
     - condition: mysql-operator.enabled
       name: mysql-operator
@@ -596,7 +639,7 @@ entries:
       artifacthub.io/operator: "true"
     apiVersion: v2
     appVersion: v0.12.1
-    created: "2022-03-24T12:23:49.822941119Z"
+    created: "2022-04-11T11:10:09.401580634Z"
     dependencies:
     - condition: mysql-operator.enabled
       name: mysql-operator
@@ -639,7 +682,7 @@ entries:
       artifacthub.io/operator: "true"
     apiVersion: v2
     appVersion: v0.12.0
-    created: "2022-03-24T12:23:49.814979306Z"
+    created: "2022-04-11T11:10:09.389648615Z"
     dependencies:
     - condition: mysql-operator.enabled
       name: mysql-operator
@@ -682,7 +725,7 @@ entries:
       artifacthub.io/operator: "true"
     apiVersion: v2
     appVersion: v0.12.0-rc.6
-    created: "2022-03-24T12:23:49.803465046Z"
+    created: "2022-04-11T11:10:09.378816044Z"
     dependencies:
     - condition: mysql-operator.enabled
       name: mysql-operator
@@ -725,7 +768,7 @@ entries:
       artifacthub.io/operator: "true"
     apiVersion: v2
     appVersion: v0.12.0-rc.5
-    created: "2022-03-24T12:23:49.792899757Z"
+    created: "2022-04-11T11:10:09.37024059Z"
     dependencies:
     - condition: mysql-operator.enabled
       name: mysql-operator
@@ -768,7 +811,7 @@ entries:
       artifacthub.io/operator: "true"
     apiVersion: v2
     appVersion: v0.12.0-rc.4
-    created: "2022-03-24T12:23:49.781091805Z"
+    created: "2022-04-11T11:10:09.358725285Z"
     dependencies:
     - condition: mysql-operator.enabled
       name: mysql-operator
@@ -811,7 +854,7 @@ entries:
       artifacthub.io/operator: "true"
     apiVersion: v2
     appVersion: v0.12.0-rc.3
-    created: "2022-03-24T12:23:49.768427206Z"
+    created: "2022-04-11T11:10:09.348750668Z"
     dependencies:
     - condition: mysql-operator.enabled
       name: mysql-operator
@@ -854,7 +897,7 @@ entries:
       artifacthub.io/operator: "true"
     apiVersion: v2
     appVersion: v0.12.0-rc.2
-    created: "2022-03-24T12:23:49.755479575Z"
+    created: "2022-04-11T11:10:09.338948687Z"
     dependencies:
     - condition: mysql-operator.enabled
       name: mysql-operator
@@ -897,7 +940,7 @@ entries:
       artifacthub.io/operator: "true"
     apiVersion: v2
     appVersion: v0.12.0-rc.1
-    created: "2022-03-24T12:23:49.743510652Z"
+    created: "2022-04-11T11:10:09.332559996Z"
     dependencies:
     - condition: mysql-operator.enabled
       name: mysql-operator
@@ -940,7 +983,7 @@ entries:
       artifacthub.io/operator: "true"
     apiVersion: v2
     appVersion: 0.11.0-rc.5
-    created: "2022-03-24T12:23:49.735962726Z"
+    created: "2022-04-11T11:10:09.322862922Z"
     dependencies:
     - condition: mysql-operator.enabled
       name: mysql-operator
@@ -982,7 +1025,7 @@ entries:
       artifacthub.io/operator: "true"
     apiVersion: v2
     appVersion: 0.11.0-rc.4
-    created: "2022-03-24T12:23:49.727432857Z"
+    created: "2022-04-11T11:10:09.312701634Z"
     dependencies:
     - condition: mysql-operator.enabled
       name: mysql-operator
@@ -1024,7 +1067,7 @@ entries:
       artifacthub.io/operator: "true"
     apiVersion: v2
     appVersion: 0.11.0-rc.3
-    created: "2022-03-24T12:23:49.718591182Z"
+    created: "2022-04-11T11:10:09.303451211Z"
     dependencies:
     - condition: mysql-operator.enabled
       name: mysql-operator
@@ -1066,7 +1109,7 @@ entries:
       artifacthub.io/operator: "true"
     apiVersion: v2
     appVersion: 0.11.0-rc.2.dev.34+69a56f5f
-    created: "2022-03-24T12:23:49.708035572Z"
+    created: "2022-04-11T11:10:09.294014426Z"
     dependencies:
     - condition: mysql-operator.enabled
       name: mysql-operator
@@ -1114,7 +1157,7 @@ entries:
       category: CMS
     apiVersion: v2
     appVersion: v0.12.1
-    created: "2022-03-24T12:23:49.851599566Z"
+    created: "2022-04-11T11:10:09.439492443Z"
     description: Bitpoke WordPress Operator Helm Chart
     digest: 6f8dfbe3e5f5ad970a18dd59dc7acb3d0784be82b0d8e01e90b271c05cc30dd2
     home: https://www.bitpoke.io/
@@ -1144,7 +1187,7 @@ entries:
       category: CMS
     apiVersion: v2
     appVersion: 0.12.0
-    created: "2022-03-24T12:23:49.849047095Z"
+    created: "2022-04-11T11:10:09.436808002Z"
     description: Bitpoke WordPress Operator Helm Chart
     digest: 057def2a7766133ddc47f83bde68430ba5e465ff3e61ad2f026c05d875f0c1ea
     home: https://www.bitpoke.io/
@@ -1174,7 +1217,7 @@ entries:
       category: CMS
     apiVersion: v2
     appVersion: 0.12.0-alpha.5
-    created: "2022-03-24T12:23:49.846435544Z"
+    created: "2022-04-11T11:10:09.433844577Z"
     description: Bitpoke WordPress Operator Helm Chart
     digest: be3cf52664b12f271eeb88f7f747aa8552f15ac92a7be7c695e3c39fc7b27000
     home: https://www.bitpoke.io/
@@ -1204,7 +1247,7 @@ entries:
       category: CMS
     apiVersion: v2
     appVersion: 0.12.0-alpha.1
-    created: "2022-03-24T12:23:49.84377446Z"
+    created: "2022-04-11T11:10:09.431420195Z"
     description: Bitpoke WordPress Operator Helm Chart
     digest: 133db8e1d3dfdae52a0078180e96f8f6a67441ca1b9a57a6d6d0ff36d4420b73
     home: https://www.bitpoke.io/
@@ -1234,7 +1277,7 @@ entries:
       category: CMS
     apiVersion: v2
     appVersion: 0.11.1
-    created: "2022-03-24T12:23:49.840990144Z"
+    created: "2022-04-11T11:10:09.429373274Z"
     description: Bitpoke WordPress Operator Helm Chart
     digest: e786c48ee20574a4602a77c45031225b9b89194dc91135cb3619a3c2fd6e0592
     home: https://www.bitpoke.io/
@@ -1264,7 +1307,7 @@ entries:
       category: CMS
     apiVersion: v2
     appVersion: 0.11.0
-    created: "2022-03-24T12:23:49.839050664Z"
+    created: "2022-04-11T11:10:09.427495992Z"
     description: Bitpoke WordPress Operator Helm Chart
     digest: 9512750ff76bcc0780d88c84f7ccde51ddc8d161a8bd762ff7e4a11a1d131806
     home: https://www.bitpoke.io/
@@ -1294,7 +1337,7 @@ entries:
       category: CMS
     apiVersion: v2
     appVersion: 0.11.0-rc.2
-    created: "2022-03-24T12:23:49.837101896Z"
+    created: "2022-04-11T11:10:09.425611296Z"
     description: Bitpoke WordPress Operator Helm Chart
     digest: c84d326fbe0baf5c6baec85b865a306155eb2d831c72813e6a93b0bc0c94a534
     home: https://www.bitpoke.io/
@@ -1324,7 +1367,7 @@ entries:
       category: CMS
     apiVersion: v2
     appVersion: 0.11.0-rc.1
-    created: "2022-03-24T12:23:49.835119135Z"
+    created: "2022-04-11T11:10:09.423728193Z"
     description: Bitpoke WordPress Operator Helm Chart
     digest: 955a13344545a87a3c1e714a22130c661dfce38805ff93adb51809997b524877
     home: https://www.bitpoke.io/
@@ -1348,8 +1391,35 @@ entries:
   - annotations:
       artifacthub.io/license: Apache-2.0
     apiVersion: v2
+    appVersion: v0.12.3
+    created: "2022-04-11T11:10:09.44138893Z"
+    description: Helm chart for deploying a WordPress site on Bitpoke Stack
+    digest: 4e5d5546d472379901500fc75ff8ee50b736c39fe5f720f33f50fec6648975e4
+    keywords:
+    - wordpress
+    - bitpoke
+    - CMS
+    - Web Application
+    - application
+    - web
+    - http
+    - php
+    kubeVersion: '>= 1.16.0-0'
+    maintainers:
+    - email: hello@bitpoke.io
+      name: Bitpoke
+      url: https://www.bitpoke.io
+    name: wordpress-site
+    sources:
+    - https://github.com/bitpoke/stack
+    urls:
+    - https://helm-charts.bitpoke.io/wordpress-site-0.12.3.tgz
+    version: 0.12.3
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+    apiVersion: v2
     appVersion: v0.12.2
-    created: "2022-03-24T12:23:49.853204128Z"
+    created: "2022-04-11T11:10:09.440755559Z"
     description: Helm chart for deploying a WordPress site on Bitpoke Stack
     digest: 8c7f39e64cd8b24e776e01fa45e0aa07e96eb5fec07ccad48e43c95df3f513d4
     keywords:
@@ -1376,7 +1446,7 @@ entries:
       artifacthub.io/license: Apache-2.0
     apiVersion: v2
     appVersion: v0.12.1
-    created: "2022-03-24T12:23:49.852404878Z"
+    created: "2022-04-11T11:10:09.440129361Z"
     description: Helm chart for deploying a WordPress site on Bitpoke Stack
     digest: de9087fe3367dd15ab63f217e02cf2b7076a09860743fde82e58677d4469468c
     keywords:
@@ -1399,4 +1469,4 @@ entries:
     urls:
     - https://helm-charts.bitpoke.io/wordpress-site-0.12.1.tgz
     version: 0.12.1
-generated: "2022-03-24T12:23:49.649095171Z"
+generated: "2022-04-11T11:10:09.232374515Z"
